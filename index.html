@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+<body>
+    <div id = "header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#">Services</a></li> -->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>IT Programmer</p>
+                <h1>Hello, I'm <br> <span><i>Novel P. Chavez</i></span> </h1>
+                <span><img src="images/log.png" class="logo1"></span>
+                
+            </div>
+            
+        </div>
+    </div>
+<!-- ----------------------About section--------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/logo1.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am outgoing, dedicated, 
+                    and open-minded. I get across to people and adjust to changes with ease. 
+                    I believe that a person should work on developing their professional skills and learning new things all the time. Currently,
+                    I am looking for new career opportunities my current job position cannot provide.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick = "opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick = "opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Computer Programming(PHP, C#.net, HTML5, CSS3, BOOTSTRAP)</span><br>Back-end Web Development <br>Windows Application</li>
+                            <li><span>Computer Skills</span><br>Good in Microsoft word,excel,powerpoint & etc.</li>
+                            <li><span>IT Support</span><br>TroubleShooting(Hardware & Software)</li>
+                            <li><span>Desktop Support</span><br>Remote, Troubleshoot</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June 1,2022</span><br>IT Programmer/QA <br>Gaisano Capital Corporation <br>Currently employed</li>
+                            <li><span>Jan. 28,2021-July 7,2021</span><br>Virtual Assistant <br>EVAS</li>
+                            <li><span>June 2019-October 2019</span><br>On-The-Job Training(OJT) <br>MOBZTAG'S INTERNET CAFE</li>
+                            <li><span>January 2018-February 2018</span><br>Part Time Job <br>EVAS</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016-2020</span><br>Salazar Colleges of Science and Institute Technology</li>
+                            <li><span>2010-2014</span><br>Patao National High School</li>
+                            <li><span>2004-2010</span><br>Baod Elementary School</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------------------Services Section-------------------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. 
+                    The different areas of web design include web graphic design; user interface design.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-photo-film"></i>
+                <h2>Photoshop Design</h2>
+                <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. 
+                    The different areas of web design include web graphic design; user interface design.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>Android App Design</h2>
+                <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. 
+                    The different areas of web design include web graphic design; user interface design.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------------Portfolio------------------------ -->
+
+<div class="portfolio" id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.PNG">
+                <div class="layer">
+                    <h3>Web Development</h3>
+                    <p>This Travel System Website is used by Gaisano Capital Corporation's employees if they want to travel to other branches.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.PNG">
+                <div class="layer">
+                    <h3>Windows Application Development</h3>
+                    <p>This Point of Sales System was developed on my college Capstone Project days.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpg">
+                <div class="layer">
+                    <h3>Certificate of Employment</h3>
+                    <p>This was my Certificate of Employment to my previous work</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+           
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -----------------------------contact section-------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>lapaychavez1996@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>09197595268 Or 09924028116</p>
+              
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100008091817426" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://myjobstreet.jobstreet.com.ph/resume/preview-resume.php" target="_blank"><i class="fa-solid fa-arrow-up-right-dots"></i></a>
+                    <a href="https://www.linkedin.com/in/levon-chavez-2674811b3/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/novel16" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form action="https://formsubmit.co/e630e54ce25a374a7632df23f2d9706d" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message"  rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn2" name="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Novel P. Chavez</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+</body>
+</html>
